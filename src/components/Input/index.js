@@ -4,7 +4,7 @@ import { InputContainer } from "./styles";
 const Button = () => {
     return (
       <InputContainer>
-        <input></input>
+        <input disabled/>
       </InputContainer>
     );
   }

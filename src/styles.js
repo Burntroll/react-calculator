@@ -13,7 +13,7 @@ export const Container = styled.div`
 export const Content= styled.div`
     background-color: #E2E6E7;
     width: 300px;
-    min-height: 450px;
+    min-height: 430px;
     border-radius: 2rem;
 `
 
@@ -24,11 +24,4 @@ export const Row = styled.div`
     align-items: center;
     margin: auto;
     width: 90%;
-`
-
-export const Column = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 `

@@ -1,6 +1,6 @@
 import { ButtonContainer } from "./styles";
 
-const Button = ({label, onClick}) => {
+const ButtonLarge = ({label, onClick}) => {
     return (
       <ButtonContainer onClick={onClick}>
         {label}
@@ -8,5 +8,5 @@ const Button = ({label, onClick}) => {
     );
   }
   
-  export default Button;
+  export default ButtonLarge;
   
