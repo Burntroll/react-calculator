@@ -22,6 +22,5 @@ export const InputContainer = styled.div `
         font-size: 2rem;
         font-family: 'Roboto';
         color: #18F1FF;
-
     }
 `
