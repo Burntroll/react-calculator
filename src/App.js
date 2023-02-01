@@ -1,9 +1,21 @@
+import Input from './components/Input'
+import Button from './components/Button'
+
+import { Container, Content, Row, Column } from "./styles";
 
 const App = () => {
   return (
-    <div className="App">
-      Olá
-    </div>
+    <Container>
+      <Content>
+        <Input />
+        <Row>
+          <Button />
+          <Button />
+          <Button />
+          <Button />
+        </Row>
+      </Content>
+    </Container>
   );
 }
 
